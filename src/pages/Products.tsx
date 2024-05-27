@@ -30,7 +30,7 @@ const Products: React.FC<RelatedWordsComponentProps> = () => {
 
     useEffect(() => {
         getRelatedWords(word);
-    }, []);
+    }, [word]);
 
     const getRelatedWords = async (
         word: string,

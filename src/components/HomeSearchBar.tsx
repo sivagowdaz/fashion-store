@@ -5,7 +5,7 @@ function HomeSearchBar({onChangeHandler}:{onChangeHandler:(e: ChangeEvent<HTMLIn
     return (
         <div className={styles.input_box} >
             <input onChange={onChangeHandler} className={styles.input_ele} placeholder='Search'/>
-            <img className={styles.seach_img} src="/assets/search.png"/>
+            <img className={styles.seach_img} src="/assets/search.png" alt='search'/>
         </div>
     )
 }
