@@ -13,10 +13,10 @@ const ProductCard: React.FC<ProductProps> = ({ product, addToFav }) => {
     <div className={styles.card_container}>
         <div onClick={()=>addToFav(product.product_id)}>
             {
-                !product.isFav ? <img className={styles.heart_img} src="assets/Heart.png" alt='heart'/>:<img className={styles.heart_img} src="assets/heart_filled.png"/>
+                !product.isFav ? <img className={styles.heart_img} src="assets/Heart.png" alt='heart'/>:<img className={styles.heart_img} src="assets/heart_filled.png" alt='heart'/>
             }
         </div>
-        <img className={styles.card_image} src={product.url} alt='card image'/>
+        <img className={styles.card_image} src={product.url}/>
         <p className={styles.card_title}>{product.title}</p>
         <div className={styles.price_container}>
             <p className={styles.price}><span>Rs.</span>&nbsp;{product.price}</p>
