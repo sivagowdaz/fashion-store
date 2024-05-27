@@ -12,7 +12,7 @@ function Home() {
     const [suggestedItems, setSuggestedItems] = useState<SuggestedItemType[]>([])
 
     const handleSearchStrChange = async (e: React.ChangeEvent<HTMLInputElement>) => {
-        if(e.target.value == ''){
+        if(e.target.value === ''){
             setSuggestedItems([])
             return
         }

@@ -10,7 +10,7 @@ function ProductsSearchBar({ onChangeHandler, handleSearch }: ProductsSearchBarP
     return (
         <div className={styles.input_box} >
             <input onChange={onChangeHandler} className={styles.input_ele} placeholder='Search'/>
-            <img onClick={handleSearch}className={styles.seach_img} src="/assets/search.png"/>
+            <img onClick={handleSearch}className={styles.seach_img} src="/assets/search.png" alt='search'/>
         </div>
     )
 }
