@@ -16,7 +16,7 @@ const ProductCard: React.FC<ProductProps> = ({ product, addToFav }) => {
                 !product.isFav ? <img className={styles.heart_img} src="assets/Heart.png" alt='heart'/>:<img className={styles.heart_img} src="assets/heart_filled.png" alt='heart'/>
             }
         </div>
-        <img className={styles.card_image} src={product.url}/>
+        <img className={styles.card_image} src={product.url} alt=''/>
         <p className={styles.card_title}>{product.title}</p>
         <div className={styles.price_container}>
             <p className={styles.price}><span>Rs.</span>&nbsp;{product.price}</p>
