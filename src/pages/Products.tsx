@@ -30,6 +30,7 @@ const Products: React.FC<RelatedWordsComponentProps> = () => {
 
     useEffect(() => {
         getRelatedWords(word);
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
 
     const getRelatedWords = async (
