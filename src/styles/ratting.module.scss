@@ -1,0 +1,10 @@
+@import './index.scss';
+
+.ratting_container {
+    @include flex-box(center, flex-start, 3px);
+    .star_img {
+        height: 30px;
+        width: 30px;
+        object-fit: contain;
+    }
+}

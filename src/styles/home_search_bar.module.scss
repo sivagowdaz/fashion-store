@@ -1,0 +1,22 @@
+@import './index.scss';
+
+.input_box {
+    box-sizing: border-box;
+    width: 800px;
+    height: 60px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px 30px;
+    @include flex-box('center', 'space-between');
+    .input_ele {
+        @include input();
+        font-size: 22px;
+        font-weight: 400;
+        color: gray;
+    }
+    .seach_img {
+        width: 34px;
+        height: auto;
+        object-fit: contain;
+    }
+}

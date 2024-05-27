@@ -1,0 +1,26 @@
+@import './index.scss';
+
+.input_box {
+    box-sizing: border-box;
+    width: 650px;
+    height: 45px;
+    background-color: transparent;
+    padding: 7px 20px;
+    border: 1px solid rgba(0,0,0,0.5);
+    border-radius: 10px;
+    margin: 10px auto;
+    
+    @include flex-box('center', 'space-between');
+    .input_ele {
+        @include input();
+        font-size: 16px;
+        font-weight: 400;
+        color: gray;
+    }
+    .seach_img {
+        width: 24px;
+        height: auto;
+        object-fit: contain;
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,53 @@
+@import './index.scss';
+.mask {
+    position:absolute;
+    height: 100%;
+    width: 100%;
+    background-image: url('http://localhost:3000/assets/home_bg.jpg');
+    background-size: cover;
+    background-position: center;
+    z-index: 0;
+}
+.home {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: rgba(255,255,255, 0.3) !important;
+    padding: 50px;
+    z-index: 9999;
+    .searchbar_container {
+        margin-top: 50px;
+        @include flex-box();
+    }
+    .suggetion_container {
+        margin-top: 15px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: white;
+        border-radius: 5px;
+        width: 800px;
+       padding: 30px;
+       -webkit-box-shadow: 0px 3px 15px 5px rgba(0,0,0,0.21); 
+box-shadow: 0px 3px 15px 5px rgba(0,0,0,0.21);
+       .suggetion_container_title {
+            font-size: 18px;
+            font-weight: 500;
+            margin-top: 0;
+            margin-bottom: 10px;
+       }
+       .trend_card_container {
+           @include flex-box(center, space-between)
+       }
+       .other_sugetions{
+        margin-top: 20px;
+        .other_sugetion_title {
+            cursor: pointer;
+         
+            
+          font-size: 13px;
+          font-weight: 500;
+        }
+       }
+    }
+}

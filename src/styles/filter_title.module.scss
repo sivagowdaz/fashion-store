@@ -1,0 +1,17 @@
+@import "./index.scss";
+
+.filter_title_container {
+    @include flex-box(center, space-between, 0px);
+    .title{
+        font-size: 17px;
+        font-weight: 500;
+        text-transform: uppercase;
+        margin: 0px;
+        margin-bottom: 10px;
+    }
+    .drowdown_img {
+        height: 30px;
+        width: 30px;
+        object-fit: contain;
+    }
+}
