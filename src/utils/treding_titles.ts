@@ -38,60 +38,60 @@ interface TredArgs {
 export const trendingTitles:TredArgs[]=[
     {
         title:"Buggy Pants",
-        url:"https://images.unsplash.com/photo-1663243216708-a7831e1a9c55"
+        url:"https://images.unsplash.com/photo-1663243216708-a7831e1a9c55?auto=compress&cs=tinysrgb&h=350"
     },
     {
         title:"Black Formal Suit",
-        url:"https://images.unsplash.com/photo-1678099774622-3a5d19d1337c"
+        url:"https://images.unsplash.com/photo-1678099774622-3a5d19d1337c?auto=compress&cs=tinysrgb&h=350"
     },
     {
         title:"Pattern Dresses",
-        url:"https://images.unsplash.com/photo-1695461569773-e7c75f38ac3b"
+        url:"https://images.unsplash.com/photo-1695461569773-e7c75f38ac3b?auto=compress&cs=tinysrgb&h=350"
     },
     {
         title:"Casual T-Shirts",
-        url:"https://images.unsplash.com/photo-1653146886577-0ea51f5b36f5"
+        url:"https://images.unsplash.com/photo-1653146886577-0ea51f5b36f5?auto=compress&cs=tinysrgb&h=350"
     },
     {
         title:"Denim Jackets",
-        url:"https://images.unsplash.com/photo-1519758340474-40fa8cba6584"
+        url:"https://images.unsplash.com/photo-1519758340474-40fa8cba6584?auto=compress&cs=tinysrgb&h=350"
     },
    
     {
         title:"Sweatshirts",
-        url:"https://images.unsplash.com/photo-1614975059251-992f11792b9f"
+        url:"https://images.unsplash.com/photo-1614975059251-992f11792b9f?auto=compress&cs=tinysrgb&h=350"
     },
     {
         title:"Sports Jerseys",
-        url:"https://plus.unsplash.com/premium_photo-1664297943340-e7fcb94726bb?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        url:"https://plus.unsplash.com/premium_photo-1664297943340-e7fcb94726bb?auto=compress&cs=tinysrgb&h=350"
     },
     {
         title:"Pattern Dresses",
-        url:"https://images.unsplash.com/photo-1431361426216-5b0506d60eb9?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        url:"https://images.unsplash.com/photo-1431361426216-5b0506d60eb9?auto=compress&cs=tinysrgb&h=350"
     },
     {
         title:"Casual T-Shirts",
-        url:"https://plus.unsplash.com/premium_photo-1693161218504-c4c8ba93bcf3"
+        url:"https://plus.unsplash.com/premium_photo-1693161218504-c4c8ba93bcf3?auto=compress&cs=tinysrgb&h=350"
     },
     {
         title:"Floral Skirts",
-        url:"https://images.unsplash.com/photo-1656330117293-f0f45036810a"
+        url:"https://images.unsplash.com/photo-1656330117293-f0f45036810a?auto=compress&cs=tinysrgb&h=350"
     },
     {
         title:"Bomber Jackets",
-        url:"https://images.unsplash.com/photo-1629353923238-df930a5216fc"
+        url:"https://images.unsplash.com/photo-1629353923238-df930a5216fc?auto=compress&cs=tinysrgb&h=350"
     },
     {
         title:"Slim Fit Jeans",
-        url:"https://images.unsplash.com/photo-1584370848010-d7fe6bc767ec"
+        url:"https://images.unsplash.com/photo-1584370848010-d7fe6bc767ec?auto=compress&cs=tinysrgb&h=350"
     },
     {
         title:"Cropped Hoodies",
-        url:"https://plus.unsplash.com/premium_photo-1705883268316-e7270ceaffcf"
+        url:"https://plus.unsplash.com/premium_photo-1705883268316-e7270ceaffcf?auto=compress&cs=tinysrgb&h=350"
     },
     {
         title:"Cargo Pants",
-        url:"https://plus.unsplash.com/premium_photo-1697791167749-ad76b0c1954a"
+        url:"https://plus.unsplash.com/premium_photo-1697791167749-ad76b0c1954a?auto=compress&cs=tinysrgb&h=350"
     }
 ]
 

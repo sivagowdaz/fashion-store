@@ -30,7 +30,7 @@ const Products: React.FC<RelatedWordsComponentProps> = () => {
 
     useEffect(() => {
         getRelatedWords(word);
-    }, [word]);
+    }, []);
 
     const getRelatedWords = async (
         word: string,
@@ -41,6 +41,7 @@ const Products: React.FC<RelatedWordsComponentProps> = () => {
                 `https://api.datamuse.com/words?ml=${word}%20garments&max=${maxResults}`
             );
             const photosRes = await getPhotos(25, word);
+            console.log(photosRes.photos)
             let productsArr = response.data.map((item, index) => {
                 const product_id = generateRandomString(10);
                 const price = faker.datatype.number({ min: 200, max: 3000 });
@@ -57,7 +58,7 @@ const Products: React.FC<RelatedWordsComponentProps> = () => {
                 });
                 const randomIndex = Math.floor(Math.random() * brands.length);
                 const brand_name = brands[randomIndex];
-                const url = photosRes.photos[index]["src"]["original"];
+                const url = photosRes.photos[index]["src"]["medium"];
                 return {
                     product_id,
                     url,
