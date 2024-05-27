@@ -34,7 +34,7 @@
             width: 100%;
             height: 100vh;
             flex: 8;
-            @include flex-box(center, flex-start, 20px);
+            @include flex-box(flex-start, flex-start, 20px);
             flex-wrap: wrap;
             overflow-y: auto;
             &::-webkit-scrollbar {
